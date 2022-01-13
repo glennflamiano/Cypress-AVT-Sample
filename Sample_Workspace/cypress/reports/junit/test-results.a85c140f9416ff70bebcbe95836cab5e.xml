@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="44.9200" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:46:16" tests="0" file="cypress/integration/fotor_test/elementLocator.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Download Demo" timestamp="2022-01-13T06:46:16" tests="3" time="44.9060" failures="2">
+    <testcase name="Download Demo Home page has correct elements" time="19.2570" classname="Home page has correct elements">
+    </testcase>
+    <testcase name="Download Demo Check successful sign in" time="0.0000" classname="Check successful sign in">
+      <failure message="The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Cannot read properties of undefined (reading &apos;0&apos;)
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Cannot read properties of undefined (reading '0')
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at https://www.fotor.com/photo-editor-app/assets/js/app.678f7020.js:6:968755]]></failure>
+    </testcase>
+    <testcase name="Download Demo File Upload using cypress-file-upload npm package" time="0.0000" classname="File Upload using cypress-file-upload npm package">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `button#el-collapse-trigger-btn _3Mu_A _2Q_fT GnMym`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `button#el-collapse-trigger-btn _3Mu_A _2Q_fT GnMym`, but never found it.
+    at Context.eval (https://www.fotor.com/__cypress/tests?p=cypress\integration\fotor_test\elementLocator.js:136:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

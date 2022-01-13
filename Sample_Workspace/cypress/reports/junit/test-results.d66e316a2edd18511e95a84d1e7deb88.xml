@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.4850" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:45:45" tests="0" file="cypress/integration/code/headlessWebsiteTest.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Headless Demo" timestamp="2022-01-13T06:45:45" tests="2" time="1.4700" failures="2">
+    <testcase name="Headless Demo Download" time="0.0000" classname="Download">
+      <failure message="cy.downloadFile is not a function" type="TypeError"><![CDATA[TypeError: cy.downloadFile is not a function
+    at Context.eval (http://localhost:52036/__cypress/tests?p=cypress\integration\code\headlessWebsiteTest.js:102:8)]]></failure>
+    </testcase>
+    <testcase name="Headless Demo Man you stink" time="0.0000" classname="Man you stink">
+      <failure message="cy.downloadFile is not a function" type="TypeError"><![CDATA[TypeError: cy.downloadFile is not a function
+    at Context.eval (http://localhost:52036/__cypress/tests?p=cypress\integration\code\headlessWebsiteTest.js:106:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

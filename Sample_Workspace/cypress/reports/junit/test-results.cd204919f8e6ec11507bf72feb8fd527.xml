@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="34.1150" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:42:48" tests="0" file="cypress/integration/code/CBT.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Window" timestamp="2022-01-13T06:42:48" tests="4" time="34.0920" failures="0">
+    <testcase name="Window open in mac 15" time="11.7990" classname="open in mac 15">
+    </testcase>
+    <testcase name="Window open in mac 13" time="7.0250" classname="open in mac 13">
+    </testcase>
+    <testcase name="Window open in ipad-2" time="6.2160" classname="open in ipad-2">
+    </testcase>
+    <testcase name="Window open in iphone-6" time="6.1460" classname="open in iphone-6">
+    </testcase>
+  </testsuite>
+</testsuites>

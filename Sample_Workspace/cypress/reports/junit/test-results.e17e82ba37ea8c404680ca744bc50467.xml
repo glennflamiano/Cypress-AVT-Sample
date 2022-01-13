@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.7740" tests="3" failures="3">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:45:55" tests="0" file="cypress/integration/code/sampleDownload.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Download Demo" timestamp="2022-01-13T06:45:55" tests="3" time="0.7490" failures="3">
+    <testcase name="Download Demo Download" time="0.0000" classname="Download">
+      <failure message="`cy.task(&apos;downloadFile&apos;)` failed with the following error:
+
+The &apos;task&apos; event has not been registered in the plugins file. You must register it before using cy.task()
+
+Fix this in your plugins file here:
+C:\Users\alvin.flamiano.AWSYS-I\Documents\QA Team KPMG POC Project\Cypress Sample Workspace for Learning\Cypress_demo_AVT_test\Sample_Workspace\cypress\plugins\index.js
+
+https://on.cypress.io/api/task" type="CypressError"><![CDATA[CypressError: `cy.task('downloadFile')` failed with the following error:
+
+The 'task' event has not been registered in the plugins file. You must register it before using cy.task()
+
+Fix this in your plugins file here:
+C:\Users\alvin.flamiano.AWSYS-I\Documents\QA Team KPMG POC Project\Cypress Sample Workspace for Learning\Cypress_demo_AVT_test\Sample_Workspace\cypress\plugins\index.js
+
+https://on.cypress.io/api/task
+    at http://localhost:52036/__cypress/runner/cypress_runner.js:160999:80
+    at tryCatcher (http://localhost:52036/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (http://localhost:52036/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (http://localhost:52036/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (http://localhost:52036/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (http://localhost:52036/__cypress/runner/cypress_runner.js:11309:18)
+    at _drainQueueStep (http://localhost:52036/__cypress/runner/cypress_runner.js:7903:12)
+    at _drainQueue (http://localhost:52036/__cypress/runner/cypress_runner.js:7896:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:52036/__cypress/runner/cypress_runner.js:7912:5)
+    at Async.drainQueues (http://localhost:52036/__cypress/runner/cypress_runner.js:7782:14)
+From Your Spec Code:
+    at Context.eval (http://localhost:52036/__cypress/tests?p=cypress\integration\code\sampleDownload.js:129:15)]]></failure>
+    </testcase>
+    <testcase name="Download Demo Download" time="0.0000" classname="Download">
+      <failure message="`cy.task(&apos;downloadFile&apos;)` failed with the following error:
+
+The &apos;task&apos; event has not been registered in the plugins file. You must register it before using cy.task()
+
+Fix this in your plugins file here:
+C:\Users\alvin.flamiano.AWSYS-I\Documents\QA Team KPMG POC Project\Cypress Sample Workspace for Learning\Cypress_demo_AVT_test\Sample_Workspace\cypress\plugins\index.js
+
+https://on.cypress.io/api/task" type="CypressError"><![CDATA[CypressError: `cy.task('downloadFile')` failed with the following error:
+
+The 'task' event has not been registered in the plugins file. You must register it before using cy.task()
+
+Fix this in your plugins file here:
+C:\Users\alvin.flamiano.AWSYS-I\Documents\QA Team KPMG POC Project\Cypress Sample Workspace for Learning\Cypress_demo_AVT_test\Sample_Workspace\cypress\plugins\index.js
+
+https://on.cypress.io/api/task
+    at http://localhost:52036/__cypress/runner/cypress_runner.js:160999:80
+    at tryCatcher (http://localhost:52036/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (http://localhost:52036/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (http://localhost:52036/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (http://localhost:52036/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (http://localhost:52036/__cypress/runner/cypress_runner.js:11309:18)
+    at _drainQueueStep (http://localhost:52036/__cypress/runner/cypress_runner.js:7903:12)
+    at _drainQueue (http://localhost:52036/__cypress/runner/cypress_runner.js:7896:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:52036/__cypress/runner/cypress_runner.js:7912:5)
+    at Async.drainQueues (http://localhost:52036/__cypress/runner/cypress_runner.js:7782:14)
+From Your Spec Code:
+    at Context.eval (http://localhost:52036/__cypress/tests?p=cypress\integration\code\sampleDownload.js:129:15)]]></failure>
+    </testcase>
+    <testcase name="Download Demo Orange12 Picture" time="0.0000" classname="Orange12 Picture">
+      <failure message="`cy.task(&apos;downloadFile&apos;)` failed with the following error:
+
+The &apos;task&apos; event has not been registered in the plugins file. You must register it before using cy.task()
+
+Fix this in your plugins file here:
+C:\Users\alvin.flamiano.AWSYS-I\Documents\QA Team KPMG POC Project\Cypress Sample Workspace for Learning\Cypress_demo_AVT_test\Sample_Workspace\cypress\plugins\index.js
+
+https://on.cypress.io/api/task" type="CypressError"><![CDATA[CypressError: `cy.task('downloadFile')` failed with the following error:
+
+The 'task' event has not been registered in the plugins file. You must register it before using cy.task()
+
+Fix this in your plugins file here:
+C:\Users\alvin.flamiano.AWSYS-I\Documents\QA Team KPMG POC Project\Cypress Sample Workspace for Learning\Cypress_demo_AVT_test\Sample_Workspace\cypress\plugins\index.js
+
+https://on.cypress.io/api/task
+    at http://localhost:52036/__cypress/runner/cypress_runner.js:160999:80
+    at tryCatcher (http://localhost:52036/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (http://localhost:52036/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (http://localhost:52036/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (http://localhost:52036/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (http://localhost:52036/__cypress/runner/cypress_runner.js:11309:18)
+    at _drainQueueStep (http://localhost:52036/__cypress/runner/cypress_runner.js:7903:12)
+    at _drainQueue (http://localhost:52036/__cypress/runner/cypress_runner.js:7896:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:52036/__cypress/runner/cypress_runner.js:7912:5)
+    at Async.drainQueues (http://localhost:52036/__cypress/runner/cypress_runner.js:7782:14)
+From Your Spec Code:
+    at Context.eval (http://localhost:52036/__cypress/tests?p=cypress\integration\code\sampleDownload.js:129:15)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

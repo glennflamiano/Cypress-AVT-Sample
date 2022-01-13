@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.1920" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:46:13" tests="0" file="cypress/integration/fotor_test/checkDateAndTime.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Upload the file" timestamp="2022-01-13T06:46:13" tests="7" time="0.1720" failures="0">
+    <testcase name="Upload the file Check date and time" time="0.0240" classname="Check date and time">
+    </testcase>
+    <testcase name="Upload the file Check date and time with AM or PM" time="0.0120" classname="Check date and time with AM or PM">
+    </testcase>
+    <testcase name="Upload the file Check date and time with 24hr format" time="0.0080" classname="Check date and time with 24hr format">
+    </testcase>
+    <testcase name="Upload the file Check time by adding 20 minutes" time="0.0120" classname="Check time by adding 20 minutes">
+    </testcase>
+    <testcase name="Upload the file Get only todays date" time="0.0170" classname="Get only todays date">
+    </testcase>
+    <testcase name="Upload the file New York time zone" time="0.0500" classname="New York time zone">
+    </testcase>
+    <testcase name="Upload the file New York time zone in 24hr format" time="0.0200" classname="New York time zone in 24hr format">
+    </testcase>
+  </testsuite>
+</testsuites>

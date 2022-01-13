@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="43.5610" tests="12" failures="8">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:41:44" tests="0" file="cypress/integration/avt_operations/all_flows.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Download Demo" timestamp="2022-01-13T06:41:44" tests="12" time="43.5480" failures="8">
+    <testcase name="Download Demo Visit AVT site." time="1.6840" classname="Visit AVT site.">
+    </testcase>
+    <testcase name="Download Demo Sign In" time="0.5500" classname="Sign In">
+    </testcase>
+    <testcase name="Download Demo Add dialogues" time="0.0000" classname="Add dialogues">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; Cannot read properties of undefined (reading &apos;language&apos;)
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress.
+
+  > Cannot read properties of undefined (reading 'language')
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at https://avt-test.azurewebsites.net/static/js/main.53867e39.chunk.js:1:4325
+    at onChange (https://avt-test.azurewebsites.net/static/js/main.53867e39.chunk.js:1:4444)
+    at onChange (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:853219)
+    at onChange (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:849597)
+    at Object.He (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:881321)
+    at Ye (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:881475)
+    at https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:899682
+    at _r (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:899776)
+    at jr (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:900191)
+    at https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:905844]]></failure>
+    </testcase>
+    <testcase name="Download Demo Play dialogue" time="0.0000" classname="Play dialogue">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element is `disabled`:
+
+`&lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled&quot; tabindex=&quot;-1&quot; type=&quot;button&quot; disabled=&quot;&quot; style=&quot;text-transform: none; margin-right: 3px;&quot;&gt;...&lt;/button&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is `disabled`:
+
+`<button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled" tabindex="-1" type="button" disabled="" style="text-transform: none; margin-right: 3px;">...</button>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureNotDisabled (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:162596:76)
+    at runAllChecks (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149868:14)
+    at retryActionability (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149945:16)
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:10470:29)
+    at whenStable (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:167470:63)
+    at https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:166968:14
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11313:18)
+    at Promise._fulfill (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11257:18)
+    at https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:12871:46
+From Your Spec Code:
+    at Context.eval (https://avt-test.azurewebsites.net/__cypress/tests?p=cypress\integration\avt_operations\all_flows.js:121:39)]]></failure>
+    </testcase>
+    <testcase name="Download Demo Delete Created Avatars (If already exists)" time="0.0000" classname="Delete Created Avatars (If already exists)">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`&lt;a class=&quot;MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button&quot; tabindex=&quot;0&quot; role=&quot;button&quot; aria-disabled=&quot;false&quot; title=&quot;Settings&quot; href=&quot;/settings&quot;&gt;...&lt;/a&gt;`
+
+is being covered by another element:
+
+`&lt;div class=&quot;MuiDialogContent-root&quot;&gt;...&lt;/div&gt;`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`<a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false" title="Settings" href="/settings">...</a>`
+
+is being covered by another element:
+
+`<div class="MuiDialogContent-root">...</div>`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:162804:78)
+    at ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149590:8)
+    at ensureDescendentsAndScroll (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149597:14)
+    at ensureElIsNotCovered (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149731:5)
+    at runAllChecks (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149921:52)
+    at retryActionability (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149945:16)
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:10470:29)
+    at whenStable (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:167470:63)
+    at https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:166968:14
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11313:18)
+    at Promise._fulfill (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11257:18)
+From Your Spec Code:
+    at Context.eval (https://avt-test.azurewebsites.net/__cypress/tests?p=cypress\integration\avt_operations\all_flows.js:138:29)]]></failure>
+    </testcase>
+    <testcase name="Download Demo Create 1st Avatar" time="0.0000" classname="Create 1st Avatar">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`&lt;a class=&quot;MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button&quot; tabindex=&quot;0&quot; role=&quot;button&quot; aria-disabled=&quot;false&quot; title=&quot;Settings&quot; href=&quot;/settings&quot;&gt;...&lt;/a&gt;`
+
+is being covered by another element:
+
+`&lt;div class=&quot;MuiDialogContent-root&quot;&gt;...&lt;/div&gt;`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`<a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false" title="Settings" href="/settings">...</a>`
+
+is being covered by another element:
+
+`<div class="MuiDialogContent-root">...</div>`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:162804:78)
+    at ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149590:8)
+    at ensureDescendentsAndScroll (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149597:14)
+    at ensureElIsNotCovered (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149731:5)
+    at runAllChecks (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149921:52)
+    at retryActionability (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149945:16)
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:10470:29)
+    at whenStable (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:167470:63)
+    at https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:166968:14
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11313:18)
+    at Promise._fulfill (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11257:18)
+From Your Spec Code:
+    at Context.eval (https://avt-test.azurewebsites.net/__cypress/tests?p=cypress\integration\avt_operations\all_flows.js:151:29)]]></failure>
+    </testcase>
+    <testcase name="Download Demo Create 2nd Avatar" time="0.0000" classname="Create 2nd Avatar">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`&lt;a class=&quot;MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button&quot; tabindex=&quot;0&quot; role=&quot;button&quot; aria-disabled=&quot;false&quot; title=&quot;Settings&quot; href=&quot;/settings&quot;&gt;...&lt;/a&gt;`
+
+is being covered by another element:
+
+`&lt;div class=&quot;MuiDialogContent-root&quot;&gt;...&lt;/div&gt;`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`<a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false" title="Settings" href="/settings">...</a>`
+
+is being covered by another element:
+
+`<div class="MuiDialogContent-root">...</div>`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:162804:78)
+    at ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149590:8)
+    at ensureDescendentsAndScroll (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149597:14)
+    at ensureElIsNotCovered (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149731:5)
+    at runAllChecks (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149921:52)
+    at retryActionability (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149945:16)
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:10470:29)
+    at whenStable (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:167470:63)
+    at https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:166968:14
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11313:18)
+    at Promise._fulfill (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11257:18)
+From Your Spec Code:
+    at Context.eval (https://avt-test.azurewebsites.net/__cypress/tests?p=cypress\integration\avt_operations\all_flows.js:175:29)]]></failure>
+    </testcase>
+    <testcase name="Download Demo Verify if both avatars are created" time="0.0000" classname="Verify if both avatars are created">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`&lt;a class=&quot;MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button&quot; tabindex=&quot;0&quot; role=&quot;button&quot; aria-disabled=&quot;false&quot; title=&quot;Settings&quot; href=&quot;/settings&quot;&gt;...&lt;/a&gt;`
+
+is being covered by another element:
+
+`&lt;div class=&quot;MuiDialogContent-root&quot;&gt;...&lt;/div&gt;`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`<a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false" title="Settings" href="/settings">...</a>`
+
+is being covered by another element:
+
+`<div class="MuiDialogContent-root">...</div>`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:162804:78)
+    at ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149590:8)
+    at ensureDescendentsAndScroll (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149597:14)
+    at ensureElIsNotCovered (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149731:5)
+    at runAllChecks (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149921:52)
+    at retryActionability (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149945:16)
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:10470:29)
+    at whenStable (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:167470:63)
+    at https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:166968:14
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11313:18)
+    at Promise._fulfill (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11257:18)
+From Your Spec Code:
+    at Context.eval (https://avt-test.azurewebsites.net/__cypress/tests?p=cypress\integration\avt_operations\all_flows.js:199:29)]]></failure>
+    </testcase>
+    <testcase name="Download Demo Create New Scenario" time="0.0000" classname="Create New Scenario">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`&lt;a class=&quot;MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button&quot; tabindex=&quot;0&quot; role=&quot;button&quot; aria-disabled=&quot;false&quot; title=&quot;Home&quot; href=&quot;/&quot;&gt;...&lt;/a&gt;`
+
+is being covered by another element:
+
+`&lt;div class=&quot;MuiDialogContent-root&quot;&gt;...&lt;/div&gt;`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`<a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0" role="button" aria-disabled="false" title="Home" href="/">...</a>`
+
+is being covered by another element:
+
+`<div class="MuiDialogContent-root">...</div>`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:162804:78)
+    at ensureDescendents (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149590:8)
+    at ensureDescendentsAndScroll (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149597:14)
+    at ensureElIsNotCovered (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149731:5)
+    at runAllChecks (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149921:52)
+    at retryActionability (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:149945:16)
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:10470:29)
+    at whenStable (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:167470:63)
+    at https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:166968:14
+    at tryCatcher (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11313:18)
+    at Promise._fulfill (https://avt-test.azurewebsites.net/__cypress/runner/cypress_runner.js:11257:18)
+From Your Spec Code:
+    at Context.eval (https://avt-test.azurewebsites.net/__cypress/tests?p=cypress\integration\avt_operations\all_flows.js:206:25)]]></failure>
+    </testcase>
+    <testcase name="Download Demo Go back to Home Page" time="0.4290" classname="Go back to Home Page">
+    </testcase>
+    <testcase name="Download Demo Create video for avatar dialogues" time="8.9690" classname="Create video for avatar dialogues">
+    </testcase>
+    <testcase name="Download Demo Save and Download Dialogue" time="0.0000" classname="Save and Download Dialogue">
+      <failure message="The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Cannot set properties of null (setting &apos;frames&apos;)
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Cannot set properties of null (setting 'frames')
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at https://avt-test.azurewebsites.net/static/js/main.53867e39.chunk.js:1:41135
+    at u (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:989436)
+    at Generator._invoke (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:989224)
+    at Generator.next (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:989861)
+    at r (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:4203)
+    at l (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:4406)
+    at https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:4465
+    at new Promise (<anonymous>)
+    at n.saveScenarioInNewFormat (https://avt-test.azurewebsites.net/static/js/2.4bfab1a9.chunk.js:2:4346)
+    at n.a.handleGenerateTalkFile (https://avt-test.azurewebsites.net/static/js/main.53867e39.chunk.js:1:43713)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

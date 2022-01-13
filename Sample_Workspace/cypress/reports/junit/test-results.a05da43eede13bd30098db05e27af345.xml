@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.4360" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:45:07" tests="0" file="cypress/integration/code/fixtureFunctionsDemo.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Fixture Demo Different Functions" timestamp="2022-01-13T06:45:07" tests="2" time="0.4240" failures="1">
+    <testcase name="Fixture Demo Different Functions Require" time="0.1450" classname="Require">
+    </testcase>
+    <testcase name="Fixture Demo Different Functions Test1" time="0.0000" classname="Test1">
+      <failure message="`cy.visit()` failed trying to load:
+
+/users
+
+We failed looking for this file at the path:
+
+/Users/alvin.flamiano.AWSYS-I/Documents/QA Team KPMG POC Project/Cypress Sample Workspace for Learning/Cypress_demo_AVT_test/Sample_Workspace/users
+
+The internal Cypress web server responded with:
+
+  &gt; 404: Not Found" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+/users
+
+We failed looking for this file at the path:
+
+/Users/alvin.flamiano.AWSYS-I/Documents/QA Team KPMG POC Project/Cypress Sample Workspace for Learning/Cypress_demo_AVT_test/Sample_Workspace/users
+
+The internal Cypress web server responded with:
+
+  > 404: Not Found
+    at http://localhost:52036/__cypress/runner/cypress_runner.js:158125:84
+    at visitFailedByErr (http://localhost:52036/__cypress/runner/cypress_runner.js:157494:12)
+    at http://localhost:52036/__cypress/runner/cypress_runner.js:158105:13
+    at tryCatcher (http://localhost:52036/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (http://localhost:52036/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (http://localhost:52036/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (http://localhost:52036/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (http://localhost:52036/__cypress/runner/cypress_runner.js:11309:18)
+    at _drainQueueStep (http://localhost:52036/__cypress/runner/cypress_runner.js:7903:12)
+    at _drainQueue (http://localhost:52036/__cypress/runner/cypress_runner.js:7896:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:52036/__cypress/runner/cypress_runner.js:7912:5)
+    at Async.drainQueues (http://localhost:52036/__cypress/runner/cypress_runner.js:7782:14)
+From Your Spec Code:
+    at Context.eval (http://localhost:52036/__cypress/tests?p=cypress\integration\code\fixtureFunctionsDemo.js:125:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

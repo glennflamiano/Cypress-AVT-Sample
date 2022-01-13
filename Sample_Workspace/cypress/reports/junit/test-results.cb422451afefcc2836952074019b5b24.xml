@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="49.7610" tests="9" failures="4">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:47:14" tests="0" file="cypress/integration/fotor_test/fotor_nav_upload_edit_performance_timeout.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Download Demo" timestamp="2022-01-13T06:47:14" tests="9" time="49.7440" failures="4">
+    <testcase name="Download Demo Visit page" time="0.0000" classname="Visit page">
+      <failure message="Timed out after waiting `5000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `5000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands." type="CypressError"><![CDATA[CypressError: Timed out after waiting `5000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `5000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+    at timedOutWaitingForPageLoad (https://www.fotor.com/__cypress/runner/cypress_runner.js:157134:72)
+    at https://www.fotor.com/__cypress/runner/cypress_runner.js:158177:16
+    at tryCatcher (https://www.fotor.com/__cypress/runner/cypress_runner.js:13196:23)
+    at https://www.fotor.com/__cypress/runner/cypress_runner.js:8318:41
+    at tryCatcher (https://www.fotor.com/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (https://www.fotor.com/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (https://www.fotor.com/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (https://www.fotor.com/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (https://www.fotor.com/__cypress/runner/cypress_runner.js:11309:18)
+    at _drainQueueStep (https://www.fotor.com/__cypress/runner/cypress_runner.js:7903:12)
+    at _drainQueue (https://www.fotor.com/__cypress/runner/cypress_runner.js:7896:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.fotor.com/__cypress/runner/cypress_runner.js:7912:5)
+    at Async.drainQueues (https://www.fotor.com/__cypress/runner/cypress_runner.js:7782:14)
+From Your Spec Code:
+    at Context.eval (https://www.fotor.com/__cypress/tests?p=cypress\integration\fotor_test\fotor_nav_upload_edit_performance_timeout.js:105:8)]]></failure>
+    </testcase>
+    <testcase name="Download Demo Find label" time="3.8620" classname="Find label">
+    </testcase>
+    <testcase name="Download Demo Find Sign in" time="1.7600" classname="Find Sign in">
+    </testcase>
+    <testcase name="Download Demo Sign in input random values" time="2.2490" classname="Sign in input random values">
+    </testcase>
+    <testcase name="Download Demo Clear input values" time="0.3260" classname="Clear input values">
+    </testcase>
+    <testcase name="Download Demo Input valid values" time="1.5650" classname="Input valid values">
+    </testcase>
+    <testcase name="Download Demo Check successful sign in" time="0.0000" classname="Check successful sign in">
+      <failure message="The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Cannot read properties of undefined (reading &apos;0&apos;)
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Cannot read properties of undefined (reading '0')
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at https://www.fotor.com/photo-editor-app/assets/js/app.678f7020.js:6:968755]]></failure>
+    </testcase>
+    <testcase name="Download Demo Close ad pop up" time="0.0000" classname="Close ad pop up">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`&lt;path d=&quot;M11 2h3v1H2V2h3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1zM6 12h1V6H6v6zm3 0h1V6H9v6zm-6.042 1.051V4h10v8.981c0 .563-.513 1.019-1.145 1.019H4.026c-.589 0-1.068-.425-1.068-.949z&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;/path&gt;`
+
+is being covered by another element:
+
+`&lt;img src=&quot;https://pub-static.fotor.com/static/web/lib/a8s/public/img/free-dailog/edit_new_year.jpg&quot; alt=&quot;&quot;&gt;`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`<path d="M11 2h3v1H2V2h3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1zM6 12h1V6H6v6zm3 0h1V6H9v6zm-6.042 1.051V4h10v8.981c0 .563-.513 1.019-1.145 1.019H4.026c-.589 0-1.068-.425-1.068-.949z" fill-rule="evenodd"></path>`
+
+is being covered by another element:
+
+`<img src="https://pub-static.fotor.com/static/web/lib/a8s/public/img/free-dailog/edit_new_year.jpg" alt="">`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://www.fotor.com/__cypress/runner/cypress_runner.js:162804:78)
+    at ensureDescendents (https://www.fotor.com/__cypress/runner/cypress_runner.js:149590:8)
+    at ensureDescendentsAndScroll (https://www.fotor.com/__cypress/runner/cypress_runner.js:149597:14)
+    at ensureElIsNotCovered (https://www.fotor.com/__cypress/runner/cypress_runner.js:149731:5)
+    at runAllChecks (https://www.fotor.com/__cypress/runner/cypress_runner.js:149921:52)
+    at retryActionability (https://www.fotor.com/__cypress/runner/cypress_runner.js:149945:16)
+    at tryCatcher (https://www.fotor.com/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://www.fotor.com/__cypress/runner/cypress_runner.js:10470:29)
+    at whenStable (https://www.fotor.com/__cypress/runner/cypress_runner.js:167470:63)
+    at https://www.fotor.com/__cypress/runner/cypress_runner.js:166968:14
+    at tryCatcher (https://www.fotor.com/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (https://www.fotor.com/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (https://www.fotor.com/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (https://www.fotor.com/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (https://www.fotor.com/__cypress/runner/cypress_runner.js:11313:18)
+    at Promise._fulfill (https://www.fotor.com/__cypress/runner/cypress_runner.js:11257:18)
+From Your Spec Code:
+    at Context.eval (https://www.fotor.com/__cypress/tests?p=cypress\integration\fotor_test\fotor_nav_upload_edit_performance_timeout.js:159:15)]]></failure>
+    </testcase>
+    <testcase name="Download Demo File Upload using cypress-file-upload npm package" time="0.0000" classname="File Upload using cypress-file-upload npm package">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`&lt;button title=&quot;&quot; class=&quot;el-collapse-trigger-btn _3Mu_A _2Q_fT GnMym&quot;&gt;...&lt;/button&gt;`
+
+is being covered by another element:
+
+`&lt;div class=&quot;ScriptModal-module_modalBG__1bQxI&quot;&gt;...&lt;/div&gt;`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`<button title="" class="el-collapse-trigger-btn _3Mu_A _2Q_fT GnMym">...</button>`
+
+is being covered by another element:
+
+`<div class="ScriptModal-module_modalBG__1bQxI">...</div>`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://www.fotor.com/__cypress/runner/cypress_runner.js:162804:78)
+    at ensureDescendents (https://www.fotor.com/__cypress/runner/cypress_runner.js:149590:8)
+    at ensureDescendentsAndScroll (https://www.fotor.com/__cypress/runner/cypress_runner.js:149597:14)
+    at ensureElIsNotCovered (https://www.fotor.com/__cypress/runner/cypress_runner.js:149731:5)
+    at runAllChecks (https://www.fotor.com/__cypress/runner/cypress_runner.js:149921:52)
+    at retryActionability (https://www.fotor.com/__cypress/runner/cypress_runner.js:149945:16)
+    at tryCatcher (https://www.fotor.com/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://www.fotor.com/__cypress/runner/cypress_runner.js:10470:29)
+    at whenStable (https://www.fotor.com/__cypress/runner/cypress_runner.js:167470:63)
+    at https://www.fotor.com/__cypress/runner/cypress_runner.js:166968:14
+    at tryCatcher (https://www.fotor.com/__cypress/runner/cypress_runner.js:13196:23)
+    at Promise._settlePromiseFromHandler (https://www.fotor.com/__cypress/runner/cypress_runner.js:11131:31)
+    at Promise._settlePromise (https://www.fotor.com/__cypress/runner/cypress_runner.js:11188:18)
+    at Promise._settlePromise0 (https://www.fotor.com/__cypress/runner/cypress_runner.js:11233:10)
+    at Promise._settlePromises (https://www.fotor.com/__cypress/runner/cypress_runner.js:11313:18)
+    at Promise._fulfill (https://www.fotor.com/__cypress/runner/cypress_runner.js:11257:18)
+From Your Spec Code:
+    at Context.eval (https://www.fotor.com/__cypress/tests?p=cypress\integration\fotor_test\fotor_nav_upload_edit_performance_timeout.js:169:24)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

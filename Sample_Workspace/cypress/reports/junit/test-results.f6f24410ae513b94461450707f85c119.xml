@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.7800" tests="8" failures="3">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:47:10" tests="0" file="cypress/integration/fotor_test/fixtureDemo.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Fixture Demo" timestamp="2022-01-13T06:47:10" tests="8" time="0.7680" failures="3">
+    <testcase name="Fixture Demo Require for city" time="0.0250" classname="Require for city">
+    </testcase>
+    <testcase name="Fixture Demo Require for country" time="0.0190" classname="Require for country">
+    </testcase>
+    <testcase name="Fixture Demo Require" time="0.0000" classname="Require">
+      <failure message="expected &apos;New Delhi&apos; to deeply equal &apos;Los Santos&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'New Delhi' to deeply equal 'Los Santos'
+    at Context.eval (http://localhost:52036/__cypress/tests?p=cypress\integration\fotor_test\fixtureDemo.js:136:31)]]></failure>
+    </testcase>
+    <testcase name="Fixture Demo Require" time="0.0200" classname="Require">
+    </testcase>
+    <testcase name="Fixture Demo Fixture file has City and Country" time="0.0000" classname="Fixture file has City and Country">
+      <failure message="expected { Object (city, country) } to deeply equal { Object (city, country) }" type="AssertionError"><![CDATA[AssertionError: expected { Object (city, country) } to deeply equal { Object (city, country) }
+    at Context.eval (http://localhost:52036/__cypress/tests?p=cypress\integration\fotor_test\fixtureDemo.js:149:20)]]></failure>
+    </testcase>
+    <testcase name="Fixture Demo Fixture file has City" time="0.0210" classname="Fixture file has City">
+    </testcase>
+    <testcase name="Fixture Demo Fixture file has Country" time="0.0150" classname="Fixture file has Country">
+    </testcase>
+    <testcase name="Fixture Demo Fixture file has City" time="0.0000" classname="Fixture file has City">
+      <failure message="expected { Object (name, favorite) } to deeply equal { Object (name, favorite) }" type="AssertionError"><![CDATA[AssertionError: expected { Object (name, favorite) } to deeply equal { Object (name, favorite) }
+    at Context.eval (http://localhost:52036/__cypress/tests?p=cypress\integration\fotor_test\fixtureDemo.js:180:28)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

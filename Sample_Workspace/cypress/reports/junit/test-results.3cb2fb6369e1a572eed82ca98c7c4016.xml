@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="28.1840" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:45:11" tests="0" file="cypress/integration/code/getDemo.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Basic tests" timestamp="2022-01-13T06:45:11" tests="6" time="28.1720" failures="1">
+    <testcase name="Basic tests We have correct page title" time="10.1070" classname="We have correct page title">
+    </testcase>
+    <testcase name="Basic tests We have correct page title2" time="5.0460" classname="We have correct page title2">
+    </testcase>
+    <testcase name="Basic tests Get by specific attributes" time="3.4330" classname="Get by specific attributes">
+    </testcase>
+    <testcase name="Basic tests Get by specific attributes 2" time="3.7890" classname="Get by specific attributes 2">
+    </testcase>
+    <testcase name="Basic tests for button" time="3.1350" classname="for button">
+    </testcase>
+    <testcase name="Basic tests for button and click" time="0.0000" classname="for button and click">
+      <failure message="Syntax error, unrecognized expression: [class=sow-icon-fontawesome sow-fas]" type="Error"><![CDATA[Error: Syntax error, unrecognized expression: [class=sow-icon-fontawesome sow-fas]
+    at Function.Sizzle.error (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:109207:8)
+    at Sizzle.tokenize (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:109859:11)
+    at Sizzle.select (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:110286:20)
+    at Function.Sizzle [as find] (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:108511:9)
+    at jQuery.fn.init.find (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:110542:11)
+    at new jQuery.fn.init (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:110657:40)
+    at Object.query (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:183361:10)
+    at $Cy.$$ (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:171589:65)
+    at getElements (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:158603:20)
+    at tryCatcher (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:13196:23)
+    at Function.Promise.attempt.Promise.try (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:10470:29)
+    at resolveElements (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:158653:67)
+    at Context.get (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:158664:14)
+    at https://www.techwithtim.net/__cypress/runner/cypress_runner.js:170703:17
+    at tryCatcher (https://www.techwithtim.net/__cypress/runner/cypress_runner.js:13196:23)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

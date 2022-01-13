@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.2050" tests="4" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-01-13T06:46:00" tests="0" file="cypress/integration/code/scrolltest.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Window" timestamp="2022-01-13T06:46:00" tests="4" time="9.1860" failures="1">
+    <testcase name="Window &quot;before all&quot; hook for &quot;open in mac 15&quot;" time="0.0000" classname="&quot;before all&quot; hook for &quot;open in mac 15&quot;">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; Cannot read properties of undefined (reading &apos;plugin_base_path&apos;)
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+
+Because this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `Window`" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress.
+
+  > Cannot read properties of undefined (reading 'plugin_base_path')
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+
+Because this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `Window`
+    at updateServiceWorker (https://scrolltest.com/wp-content/cache/min/1/71d9704e71f6fc3b1a033dd55d55182d.js:457:99)
+    at https://scrolltest.com/wp-content/cache/min/1/71d9704e71f6fc3b1a033dd55d55182d.js:458:1]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
